@@ -186,7 +186,7 @@ select:focus {
     gap: 1rem;
     font-weight: 700;
     color: var(--text-primary);
-    font-size: 1.05rem;
+    font-size: 1.3rem;
 }
 
 .faq-toggle {
@@ -195,12 +195,12 @@ select:focus {
     justify-content: center;
     width: 40px;
     height: 40px;
-    border-radius: 50%;
     background: var(--accent-primary);
-    color: var(--bg-primary);
-    font-weight: 800;
+    color: var(--text-primary);
     transition: transform 0.25s ease, background 0.25s ease;
     flex: 0 0 auto;
+    font-size: 25px;
+    margin-right: 1rem;
 }
 
 .faq-item.active .faq-toggle {
@@ -212,7 +212,7 @@ select:focus {
     margin-top: 0.75rem;
     color: var(--text-secondary);
     line-height: 1.6;
-    font-size: 0.98rem;
+    font-size: 1rem;
     max-height: 0;
     overflow: hidden;
     opacity: 0;
